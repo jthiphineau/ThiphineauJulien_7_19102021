@@ -9,7 +9,7 @@
     * MySQL,
     * Git.
 
-- Cloner ce repository:
+- Clonez ce repository:
 
 ```bash
 git clone https://github.com/jthiphineau/ThiphineauJulien_7_19102021.git
@@ -33,9 +33,18 @@ npm run serve
 
 ## MySQL
 
-- Ouvrez un autre terminal.
+- Ouvrez un autre terminal:
 
-- Connectez-vous à mysql.
+```bash
+cd /usr/local/mysql
+```
+
+- Connectez-vous à mysql:
+
+```bash
+mysql -h localhost -u root -p
+```
+ainsi que votre mot de passe pour la base de donnée
 
 - Importez le fichier " initialisationBdd.sql "
 
