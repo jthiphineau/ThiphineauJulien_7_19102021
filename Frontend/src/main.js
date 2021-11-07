@@ -8,5 +8,5 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "axios";
 
 createApp(App)
-    .use(router)
-    .mount("#app");
+  .use(router)
+  .mount("#app");
